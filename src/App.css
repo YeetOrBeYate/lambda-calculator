@@ -22,14 +22,15 @@
   }
 
   .yeet{
-      border: 1px solid black;
+      
       display: flex;
- 
-}
+    }
 
   .primary{
       
-      width: 50%;
+      width: 100%;
+     
+      margin-left: 15%;
   }
   .number, .special {
       border-radius: 50%;
