@@ -11,7 +11,7 @@ import { numbers } from '../../../data'
 export const Numbers = () => {
   const [numberState, setNumberState]= useState(numbers);
   return (
-    <div>
+    <div className = "numberContainer">
       {numberState.map((button, index)=>(
         <NumberButton key = {index} button = {button} />
       ))}
