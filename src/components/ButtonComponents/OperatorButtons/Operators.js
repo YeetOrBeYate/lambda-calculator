@@ -10,7 +10,7 @@ import {OperatorButton} from "../OperatorButtons/OperatorButton";
   return (
     <div>
       {Operators.map((button, index)=>(
-        <OperatorButton key = {index} button = {button} />
+        <OperatorButton key = {index} yeet = {button} />
       ))}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
