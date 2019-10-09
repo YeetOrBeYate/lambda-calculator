@@ -14,7 +14,7 @@ export const Numbers = (props) => {
   return (
     <div className = "numberContainer">
       {numberState.map((button, index)=>(
-        <NumberButton key = {index} button = {button} function = {setDisplay} />
+        <NumberButton key = {index} button = {button} function = {setDisplay}/>
       ))}
     </div>
   );

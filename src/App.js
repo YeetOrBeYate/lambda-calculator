@@ -26,6 +26,10 @@ function App() {
     
   }
 
+  function reset(value) {
+    setDisplay(value);
+  }
+
   return (
     <div className="container">
       <Logo />
@@ -41,7 +45,7 @@ function App() {
 
         <div className = "yeet">
           <div className = "primary">
-            <Specials/>
+            <Specials function = {reset}/>
 
 
             <Numbers function={showValue}/>
