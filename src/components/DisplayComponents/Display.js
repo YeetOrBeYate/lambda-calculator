@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Display = () => {
-  return <div className="display">{0}</div>;
+export const Display = (props) => {
+  return <div className="display">{props.display}</div>;
 };

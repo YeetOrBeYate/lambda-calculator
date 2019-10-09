@@ -8,12 +8,13 @@ import { numbers } from '../../../data'
 */
 //Import your array data to from the provided data file
 
-export const Numbers = () => {
+export const Numbers = (props) => {
+  const setDisplay = props.function;
   const [numberState, setNumberState]= useState(numbers);
   return (
     <div className = "numberContainer">
       {numberState.map((button, index)=>(
-        <NumberButton key = {index} button = {button} />
+        <NumberButton key = {index} button = {button} function = {setDisplay} />
       ))}
     </div>
   );
